@@ -15,7 +15,7 @@ function Intro() {
       <p className="text-small mw-w-1 mb-6 font-bold bg-slate-200 text-stone-800 rounded-md p-4 md:m-2 sm: m-2">
         ~👾 Sou um desenvolvedor full-stack, estudante e entusiasta de
         tecnologia. Atualmente cursando Engenharia de Software e estagiando{" "}
-        <a className="text-blue-600 hover:text-blue-900 hover:underline decoration-2 transition-colors duration-300 hover:cursor-pointer">
+        <a href="https://www.akersolutions.com" className="text-blue-600 hover:text-blue-900 hover:underline decoration-2 transition-colors duration-300 hover:cursor-pointer">
           @AkerSolutions
         </a>
       </p>

@@ -9,7 +9,7 @@ function Contact() {
           method="POST"
           className="flex flex-col w-full md:w-7/12 sm:w-7/12"
         >
-          <Title>Me chame!</Title>
+          <Title>Tem uma ideia? Me chame!</Title>
           <input
             type="text"
             name="name"
@@ -30,7 +30,7 @@ function Contact() {
           />
           <button
             type="submit"
-            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:stroke-white"
+            className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md"
           >
             Vamos trabalhar juntos!
           </button>

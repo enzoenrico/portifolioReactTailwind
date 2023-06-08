@@ -2,11 +2,11 @@
 // import React from "react";
 function PortfolioItem({title, imgUrl, stack, link}) {
   return (
-    <a href={link} className="border-2 border-pink-400 rounded-md items-center justify-center ">
+    <a href={link} className="border-2 border-pink-400 rounded-md items-center justify-center hover:border-pink-800 transition-colors duration-300 ">
       <img
         src={imgUrl}
         alt="portfolio"
-        className="w-full h-48 object-cover cursor-pointer"
+        className="w-full h-48 object-cover cursor-pointer rounded-md"
       />
       <div className="w-full p-4">
         <h3 className="text-lg md:text-xl mb-2 md:mb-3 font-semibold text-center">{title}</h3>

@@ -65,6 +65,15 @@ function App() {
     </svg>
   );
 
+  const docicon = (
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512 " className="w-6 h-6">
+      <path
+        d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128z"
+        className="w-6 h-6"
+      />
+    </svg>
+  );
+
   return (
     <>
       <button
@@ -74,6 +83,15 @@ function App() {
       >
         {theme === "dark" ? sun : moon}
       </button>
+
+      <a href="assets\Curriculum2.pdf" target="_blank">
+        <button
+          type="button"
+          className="fixed p-2 z-10 right-10 top-20 bg-violet-300 text-lg rounded-md dark:bg-orange-300 transition duration-300"
+        >
+          {docicon}
+        </button>
+      </a>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-white min-h-screen font-inter transition-colors duration-300">
         <div className=" max-w-5xl w-11/12 mx-auto h-full">
           <Intro />

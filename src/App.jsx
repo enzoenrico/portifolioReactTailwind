@@ -6,6 +6,7 @@ import Contact from "./components/Contact";
 
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
+import Console from "./components/Console";
 
 function App() {
   // Handle Theme Switch
@@ -98,11 +99,13 @@ function App() {
       </a>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-white min-h-screen font-inter transition-colors duration-300">
         <div className=" max-w-5xl w-11/12 mx-auto h-full">
-          <Intro />
+          {/* <Intro /> */}
+          <Console />
           <Portifolio />
           <Timeline />
           <Contact />
           <Footer />
+
         </div>
       </div>
     </>

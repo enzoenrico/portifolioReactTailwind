@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
 import Console from "./components/Console";
+import About from "./components/About";
 
 function App() {
   // Handle Theme Switch
@@ -103,6 +104,7 @@ function App() {
           <Console />
           <Portifolio />
           <Timeline />
+          <About />
           <Contact />
           <Footer />
 

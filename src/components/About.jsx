@@ -11,7 +11,7 @@ function About() {
       <Title>Sobre mim</Title>
       <div className="flex flex-col md:flex-row my-5 lg:w-fit justify-evenly items-center">
         <div className="flex flex-col max-h-1/2 lg:w-1/3 sm:w-screen border-2 rounded-md border-pink-500">
-          <img src="public/assets/euLiteralmente.jpg" className="w-full max-h-96 object-cover rounded-t-md" />
+          <img src="assets/euLiteralmente.jpg" className="w-full max-h-96 object-cover rounded-t-md" />
 
           <div className="flex flex-col items-center justify-center p-1.5 ">
             <div className="dark:bg-slate-200 bg-slate-800 dark:text-stone-800 text-white rounded-b-md p-5 h-fit w-full ">

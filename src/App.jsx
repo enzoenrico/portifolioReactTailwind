@@ -99,7 +99,7 @@ function App() {
         </button>
       </a>
       <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-white min-h-screen font-inter transition-colors duration-300">
-        <div className=" max-w-5xl w-11/12 mx-auto h-full">
+        <div className="w-11/12 mx-auto h-full ">
           {/* <Intro /> */}
           <Console />
           <Portifolio />

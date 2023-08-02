@@ -14,7 +14,7 @@ function About() {
           <img src="assets/euLiteralmente.jpg" className="w-full max-h-96 object-cover rounded-t-md" />
 
           <div className="flex flex-col items-center justify-center p-1.5 ">
-            <div className="dark:bg-slate-200 bg-slate-800 dark:text-stone-800 text-white rounded-b-md p-5 h-fit w-full ">
+            <div className="text-stone-800 dark:text-white rounded-b-md p-5 h-fit w-full ">
               ~👾 Sou um estudante, desenvolvedor e apaixonado por tecnologia.
               Comecei a programar com meus 13 anos, experimentando com Python e
               jogos em CLI, ao passar dos anos percebi que isso era minha

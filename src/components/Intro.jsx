@@ -26,10 +26,10 @@ function Intro() {
         </a>
         e estagiando{" "}
         <a
-          href="https://www.akersolutions.com"
+          href="https://www.onesubsea.com"
           className="dark:text-blue-600 text-pink-500 hover:text-blue-900 hover:underline decoration-2 transition-colors duration-300 hover:cursor-pointer"
         >
-          @AkerSolutions!
+          @OneSubsea!
         </a>
         <p className="animate-pulse">|</p>
       </p>

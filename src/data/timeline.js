@@ -4,7 +4,7 @@ export default [
         title: 'Estagiário',
         duration: 'Desde Jun/2023',
         details:
-        'Estagiário na empresa Aker Solutions, auxiliando equipes na produção de ferramentas internas, automatização de processos e auxilio técnico em um todo'
+        'Estagiário na empresa One Subsea, desenvolvendo soluções e Aplicativos internos' 
     },
     {
         year: 'Hoje',

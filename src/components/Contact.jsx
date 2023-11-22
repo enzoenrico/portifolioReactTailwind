@@ -9,22 +9,22 @@ function Contact() {
           method="POST"
           className="flex flex-col w-full md:w-7/12 sm:w-7/12"
         >
-          <Title>Tem uma ideia? Me chame!</Title>
+          <Title>Got an idea for a project? Shoot me a message!</Title>
           <input
             type="text"
             name="name"
-            placeholder="Name"
+            placeholder="Your name goes here"
             className="p-2 bg-transparent border-2 rounded-md focus:outline-none hover:scale-105 transition duration-300"
           />
           <input
             type="text"
             name="email"
-            placeholder="Email"
+            placeholder="Your Email goes here"
             className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none hover:scale-105 transition duration-300"
           />
           <textarea
             name="message"
-            placeholder="Message"
+            placeholder="Tell me about your idea"
             rows="10"
             className="p-2 mb-4 bg-transparent border-2 rounded-md focus:outline-none hover:scale-105 transition duration-300"
           />
@@ -32,7 +32,7 @@ function Contact() {
             type="submit"
             className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-yellow-500 to-pink-500 drop-shadow-md hover:scale-110 transition duration-300"
           >
-            Vamos trabalhar juntos!
+            Let's make something amazing!
           </button>
         </form>
       </div>

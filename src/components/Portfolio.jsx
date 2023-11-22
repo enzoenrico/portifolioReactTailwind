@@ -1,21 +1,23 @@
 /* eslint-disable react/jsx-key */
 import React from "react";
 import portfolio from "../data/portfolio";
+import blogPosts from "../data/blogPosts";
 import PortfolioItem from "./PortfolioItem";
 import Title from "./Title";
 
 function Portfolio() {
   return (
     <>
-      <Title>Alguns projetos meus</Title>
+      <Title>Projects</Title>
       <div className="flex flex-col md:flex-row items-center justify-center">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {portfolio.map((project) => (
+        {portfolio.map((project) => (
             <PortfolioItem
               imgUrl={project.imgUrl}
               title={project.title}
               stack={project.stack}
               link={project.link}
+
             />
           ))}
         </div>

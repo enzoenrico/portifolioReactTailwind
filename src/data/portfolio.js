@@ -1,15 +1,15 @@
 export default [
    {
-      title: 'ClassMinder',
+          title: 'ClassMinder',
       imgUrl: 'assets/LogoProduto.png',
       stack: ['ReactJS', 'TailWind Css', 'Figma', 'Git'],
       link: 'https://github.com/enzoenrico/classCalendar',
    },
    {
-      title: 'Portifolio React + Tailwind',
-      imgUrl: 'assets/portifImg.png',
-      stack: ['ReactJS', 'TailWind Css'],
-      link: 'https://github.com/enzoenrico/portifolioReactTailwind',
+      title: 'Poliweek: Algorithms and Datastructures',
+      imgUrl: 'assets/me.jpg',
+      stack: ['Algorithms', 'Data-Stuctures', 'Python'],
+      link: 'https://www.linkedin.com/feed/update/urn:li:activity:7115381992023601153/',
    },
    {
       title: 'uMirror',
@@ -17,5 +17,5 @@ export default [
       stack: ['Python', 'NodeJs', 'MongoDb'],
       link: 'https://github.com/enzoenrico/uMirrorSoftware',
    }
-   
+
 ]

@@ -1,22 +1,22 @@
 export default [
   {
-    hobbie: "Gosto de manter a saúde em dia!",
-    desc: "Sempre amei esportes, hoje em dia vou todos os dias para a academia, não apenas para manter a saúde fisica mas principalemente a mental!",
+    hobbie: "Big gym-goer",
+    desc: "I've always loved sports, in 2021 I started going to the gym, and since then I've fell in love with the process and the discipline that comes with the training",
     imgUrl: "/public/assets/terminal-icon.png",
   },
   {
-    hobbie: "Amo música!",
-    desc: "Desde que me conheço por gente sempre amei música, escutar, criar, tudo que envolve música me apaixona.",
+    hobbie: "Music lover",
+    desc: "Everything surrounding music, from listening to writing it, music has been a big part of my life since I was little",
     imgUrl: "/public/assets/terminal-icon.png",
   },
   {
-    hobbie: "Adoro ler",
-    desc: "Desde que meu pai me contava histórias pra dormir, até hoje em dia quando posso ler um livro bebendo um bom café, leitura sempre me trás paz e tranquilidade",
+    hobbie: "Reading!",
+    desc: "I remember when my father would read to me some bed-time stories, those fond memories made me love reading more than I could ever imagine",
     imgUrl: "/public/assets/terminal-icon.png",
   },
   {
-    hobbie: "Apaixonado em código",
-    desc: "Sempre tenho algum projeto em andamento! Trazer minhas idéias à vida usando código é o que me faz feliz! E principalmente quando posso trazer minhas idéias a vida com meus amigos, não existe nada melhor do que isso! ",
+    hobbie: "Building stuff",
+    desc: "Since I've discovered programming, I've awlays got a project going on, seeing my ideas come to reality will always make me smile",
     imgUrl: "/public/assets/terminal-icon.png",
   },
 ];

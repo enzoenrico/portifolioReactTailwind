@@ -59,7 +59,7 @@ function Footer() {
 					</div>
 				</div>
 			<p className="text-sm mt-2  opacity-50">
-				&copy; {new Date().getFullYear()} Enzo Enrico. Todos os direitos reservados.
+				&copy; {new Date().getFullYear()} Enzo Enrico. All rights reserved.
 			</p>
 		</div>
 	);

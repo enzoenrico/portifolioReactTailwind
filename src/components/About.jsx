@@ -8,7 +8,7 @@ function About() {
     // TODO Arrumar fonrmatação do about, quando grande um do lado do outro, quando pequeno um em cima do outro
     //TODO Adicionar cor e borda aos elementos do hobbie
     <div className=" p-3">
-      <Title>Sobre mim</Title>
+      <Title>About me </Title>
       <div className="flex flex-col lg:flex-row my-5 xl:w-fit justify-evenly items-center">
         <div className="flex flex-col max-w-xl max-h-1/2 lg:w-1/3 sm:w-screen border-2 rounded-md border-pink-500">
           <img src="assets/me.jpg" className="w-full  max-h-96 object-cover rounded-t-md" />

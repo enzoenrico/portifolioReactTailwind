@@ -21,7 +21,7 @@ function About() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row lg:w-1/2 ">
+        <div className="flex flex-col xl:flex-row xl:w-1/2 ">
           <div className="grid lg:grid-cols-1 xl:grid-cols-2 gap-2">
             {about.map((hobbie) => (
               <Hobbies

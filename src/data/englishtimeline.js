@@ -4,7 +4,7 @@ export default [
         title: 'Intern',
         duration: 'Since Jun/2023',
         details:
-        'Software engineering intern @OneSubsea. Developing internal administrative applications and managing teams of developers.'
+        'Software engineering intern @OneSubsea. Responsible for the development of internal administrative applications and managing teams of developers.'
     },
     {
         year: 'Present',

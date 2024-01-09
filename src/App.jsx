@@ -3,6 +3,7 @@ import Intro from "./components/Intro";
 import Portifolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
 import Contact from "./components/Contact";
+import Articles from "./components/Articles";
 
 import { useEffect, useState } from "react";
 import Footer from "./components/Footer";
@@ -85,7 +86,7 @@ function App() {
       <button
         type="button"
         onClick={handleThemeSwitch}
-        className="fixed p-2 z-10 right-10 top-4 bg-violet-300 text-lg rounded-md dark:bg-orange-300 transition duration-300"
+        className="fixed p-2 z-10 right-10 top-4 bg-pink-500 hover:bg-pink-600 text-lg rounded-md dark:bg-orange-300 dark:hover:bg-orange-400 transition duration-300"
       >
         {theme === "dark" ? sun : moon}
       </button>
@@ -93,7 +94,8 @@ function App() {
       <a href="assets/Curriculum2.pdf" target="_blank">
         <button
           type="button"
-          className="fixed p-2 z-10 right-10 top-20 bg-violet-300 text-lg rounded-md dark:bg-orange-300 transition duration-300"
+          className="fixed p-2 z-10 right-10 top-20 bg-pink-500 hover:bg-pink-600 text-lg rounded-md dark:bg-orange-300 dark:hover:bg-orange-400 transition duration-300 "
+
         >
           {theme === 'dark'? dociconDark : dociconLight}
         </button>

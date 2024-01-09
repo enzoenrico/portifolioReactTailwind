@@ -1,16 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Title from "./Title";
-
+import ArticleItem from "./ArticleItem";
 
 function Articles() {
-    const [data, setData] = useState([])
+    const [data, setData] = useState(new Set())
     const [isLoading, setIsloading] = useState(true)
 
     useEffect(() => {
         fetch('https://dev.to/api/articles?username=enzoenrico').then(response => {
             return response.json()
         }).then(data => {
-            console.log(data)
             setData(data)
             setIsloading(false)
         }
@@ -23,18 +22,22 @@ function Articles() {
         )
     }
     return (
-        <div className="flex justify-center items-center">
-            {data.map((item) => (
-                <div key={item.id} className="grid w-10 p-2 grid-flow-row grid-rows-1 rounded-2xl border-pink-500 min-w-fit">
-                    <a href={item.url}>
-                        <div>
-                            <img src={item.cover_image} />
-                            <p>{item.title}</p>
-                        </div>
-                    </a>
+        <>
+            <Title>Published Articles</Title>
+            <div className="flex flex-col md:flex-row items-center justify-center m-5">
+                <div className="flex justify-center items-center">
+                    {data.map((item) => (
+                        <ArticleItem
+                            key={item.id}
+                            title={item.title}
+                            stack={[...item.tag_list]}
+                            imageUrl={item.cover_image}
+                            url={item.url}
+                        />
+                    ))}
                 </div>
-            ))}
-        </div>
+            </div>
+        </>
     )
 
 }

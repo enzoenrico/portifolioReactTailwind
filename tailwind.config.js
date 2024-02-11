@@ -17,7 +17,7 @@ export default {
       minHeight: {
         'project': '312px'
       }
-    },
+    },  
     plugins: [
     ],
   },

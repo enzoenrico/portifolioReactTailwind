@@ -1,7 +1,7 @@
 
 function PortfolioItem({ title, imgUrl, stack, link}) {
   return (
-    <a href={link} className="min-w-project min-h-project border-2 border-pink-400 rounded-md items-center justify-center hover:border-pink-800 transition-colors duration-300  dark:hover:bg-stone-800">
+    <a href={link} className="md:min-w-project md:min-h-project border-2 border-pink-400 rounded-md items-center justify-center hover:border-pink-800 transition-colors duration-300  dark:hover:bg-stone-800">
       <img
         src={imgUrl}
         alt="portfolio"

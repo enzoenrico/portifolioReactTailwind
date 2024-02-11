@@ -15,21 +15,21 @@ function Intro() {
         Software Engineer
       </p>
       <p className="text-small mw-w-1 mb-6 font-bold dark:bg-slate-200 bg-slate-800 dark:text-stone-800 text-white rounded-md p-4 md:m-2 sm: m-2 ">
-        <text>~👾</text>Full-Stack developer, student, tech entusiast. Currently studying Software Engineering{" "}
+        <text>~👾</text>Full-Stack developer, student, tech entusiast. Currently attending{" "}
         <a
           href="https://www.pucpr.br/cursos-graduacao/engenharia-de-software/"
           className="dark:text-blue-600 text-pink-500 hover:text-blue-900 hover:underline decoration-2 transition-colors duration-300 hover:cursor-pointer"
         >
           @PUCPR{" "}
         </a>
-        and working{" "}
+        for Software Engineering, and working{" "}
         <a
           href="https://www.onesubsea.com"
           className="dark:text-blue-600 text-pink-500 hover:text-blue-900 hover:underline decoration-2 transition-colors duration-300 hover:cursor-pointer"
         >
           @OneSubsea!
         </a>
-        <p className="animate-pulse">|</p>
+        
       </p>
     </div>
   );

@@ -6,8 +6,6 @@ import PortfolioItem from "./PortfolioItem";
 import Title from "./Title";
 import ArticleItem from "./ArticleItem";
 
-import ScrollCarousel from 'scroll-carousel-react'
-
 function Portfolio() {
   const [data, setData] = useState(new Set())
   const [isLoading, setIsloading] = useState(true)
@@ -31,7 +29,7 @@ function Portfolio() {
     <>
       <Title>Projects & Articles</Title>
       <div className="flex flex-col md:flex-row items-center justify-center p-5">
-        <div className={`md:flex md:flex-row  md:w-full md:overflow-x-scroll md:gap-4 md:scroll-smooth md:p-3 flex flex-col gap-4 p-2`} >
+        <div className={`md:flex md:flex-row max-w-full md:overflow-x-scroll noscrollbar md:gap-4 md:scroll-smooth md:p-3 flex flex-col gap-4 p-2`} >
           {data.map((item) => (
           <ArticleItem
             key={item.id}

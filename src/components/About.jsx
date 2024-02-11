@@ -5,8 +5,6 @@ import about from "../data/about";
 
 function About() {
   return (
-    // TODO Arrumar fonrmatação do about, quando grande um do lado do outro, quando pequeno um em cima do outro
-    //TODO Adicionar cor e borda aos elementos do hobbie
     <div className=" p-3">
       <Title>About me </Title>
       <div className="flex flex-col lg:flex-row my-5 xl:w-fit justify-evenly items-center">
@@ -15,7 +13,7 @@ function About() {
 
           <div className="flex flex-col items-center justify-center p-1.5 ">
             <div className="text-stone-800 dark:text-white rounded-b-md p-5 h-fit w-full ">
-              ~👾 Developer, student and in love with technology.
+              ~👾 Developer, student and Tech-Lover. 
               Started coding and playing around with Python when I was 13, since then, I've been discovering the limits of my imagination, bringing my ideas to life using code and hardware!
             </div>
           </div>

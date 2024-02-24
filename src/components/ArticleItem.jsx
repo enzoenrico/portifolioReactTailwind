@@ -1,4 +1,3 @@
-import React from "react";
 
 function ArticleItem({ title, stack, imageUrl, url, key }) {
     return (

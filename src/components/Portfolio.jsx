@@ -34,7 +34,7 @@ function Portfolio() {
             <ArticleItem
               key={item.id}
               title={item.title}
-              stack={[item.tags]}
+              stack={[...item?.tags.split(",")]}
               imageUrl={item.cover_image}
               url={item.url}
             />

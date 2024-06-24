@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import portfolio from "../data/portfolio";
-import blogPosts from "../data/blogPosts";
+// import blogPosts from "../data/blogPosts";
 import PortfolioItem from "./PortfolioItem";
 import Title from "./Title";
 import ArticleItem from "./ArticleItem";
@@ -28,8 +28,8 @@ function Portfolio() {
   return (
     <>
       <Title>Projects & Articles</Title>
-      <div className="flex flex-col md:flex-row items-center justify-center p-5">
-        <div className={`md:flex md:flex-row max-w-full md:overflow-x-scroll noscrollbar md:gap-4 md:scroll-smooth md:p-3 flex flex-col gap-4 p-2`} >
+      <div className="flex flex-col md:flex-row items-center justify-center p-5 ">
+        <div className={`md:flex md:flex-row max-w-full overflow-x-auto dark:dark-scrollbar light-scrollbar md:gap-4 md:scroll-smooth md:p-3 flex flex-col gap-4 p-2`} >
           {data.map((item) => (
           <ArticleItem
             key={item.id}

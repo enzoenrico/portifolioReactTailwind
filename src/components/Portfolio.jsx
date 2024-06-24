@@ -14,8 +14,7 @@ function Portfolio() {
     fetch('https://dev.to/api/articles?username=enzoenrico').then(response => {
       return response.json()
     }).then(data => {
-      console.log(data)
-      setData(data)
+      setData(data, ...data)
       setIsloading(false)
     }
     )
@@ -35,7 +34,7 @@ function Portfolio() {
             <ArticleItem
               key={item.id}
               title={item.title}
-              stack={[...item.tag_list]}
+              stack={[item.tags]}
               imageUrl={item.cover_image}
               url={item.url}
             />

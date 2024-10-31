@@ -1,5 +1,6 @@
 import Title from "./Title";
 import ArticleItem from "./ArticleItem";
+import { useState, useEffect } from "react";
 
 function Articles() {
     const [data, setData] = useState(new Set())

@@ -1,6 +1,7 @@
 import Title from "./Title";
 import ArticleItem from "./ArticleItem";
 import { useState, useEffect } from "react";
+import { FaSpinner } from "react-icons/fa";
 
 function Articles() {
     const [data, setData] = useState(new Set())
@@ -16,9 +17,12 @@ function Articles() {
         )
     }, [])
 
+
     if (isLoading) {
         return (
-            <div> Loading ... </div>
+            <div className='flex flex-col md:flex-row items-center justify-center m-5'>
+                <FaSpinner />
+            </div>
         )
     }
     return (

@@ -1,10 +1,15 @@
-
 export default [
     {
         title: 'Writing a Obsidian integration',
         imgUrl: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*ISo4rsHAqPN2_Aq33f_y2w.png",
         stack: ['Automation', 'Organization', 'Leetcode', 'Obsidian'],
         link: 'https://medium.com/@e.enrico2005/getting-my-daily-leetcode-question-in-obsidian-0d85739a8cad',
+    },
+    {
+        title: 'your digital self',
+        imgUrl: '/public/assets/demo.gif',
+        stack: ['AI', ';)'],
+        link: 'https://github.com/enzoenrico/ai_rg'
     },
     {
         title: 'Intro 2 AI: Developing smart agents',

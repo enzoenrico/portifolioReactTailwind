@@ -91,7 +91,7 @@ function App() {
         {theme === "dark" ? sun : moon}
       </button>
 
-      <a href="assets/Curriculum2.pdf" target="_blank">
+      <a href="assets/cv.pdf" target="_blank">
         <button
           type="button"
           className="fixed p-2 z-10 right-10 top-20 bg-pink-500 hover:bg-pink-600 text-lg rounded-md dark:bg-orange-300 dark:hover:bg-orange-400 transition duration-300 "

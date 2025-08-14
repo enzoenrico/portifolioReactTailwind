@@ -1,10 +1,5 @@
 export default [
-    {
-        title: "DeapLeap",
-        imgUrl: 'assets/deapleap.png',
-        stack: ['Swift', 'Machine Learning', 'Mobile', 'IOS'],
-        link: ""
-    },
+    
     {
         title: 'Intro to AI: Developing smart agents',
         imgUrl: "assets/poliweek_300.jpg",

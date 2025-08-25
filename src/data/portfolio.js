@@ -3,7 +3,7 @@ export default [
         title: "NanInf",
         imgUrl: 'assets/naninf.gif',
         stack: ['Swift', 'AI', 'Mobile', 'IOS'],
-        link: "https://www.linkedin.com/posts/enzo-enrico-a71771242_ever-wish-you-could-play-a-game-with-no-limits-activity-7361777374536826880-_37-"
+        link: "https://apps.apple.com/br/app/naninf/id6749869965?l=en-GB"
     },
     // {
     //     title: "DeapLeap",

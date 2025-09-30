@@ -5,12 +5,6 @@ export default [
         stack: ['Swift', 'AI', 'Mobile', 'IOS'],
         link: "https://apps.apple.com/br/app/naninf/id6749869965?l=en-GB"
     },
-    // {
-    //     title: "DeapLeap",
-    //     imgUrl: 'assets/deapleap.png',
-    //     stack: ['Swift', 'Machine Learning', 'Mobile', 'IOS'],
-    //     link: ""
-    // },
     {
         title: "Hello, me!",
         imgUrl: 'assets/hellome.gif',

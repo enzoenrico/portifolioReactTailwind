@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 function Footer () {
   return (
     <div className='py-5 text-center'>
@@ -45,6 +47,12 @@ function Footer () {
                 </g>
               </svg>
             </a>
+            <Link
+              to='/poliweek/2025'
+              className='bg-purple-500 dark:bg-purple-300 dark:hover:bg-pink-400 hover:scale-105 p-2 font-semibold text-white dark:text-stone-900 inline-flex items-center space-x-2 rounded-full transition'
+            >
+              <span className='text-sm font-semibold'>Poliweek Links</span>
+            </Link>
           </div>
         </div>
       </div>

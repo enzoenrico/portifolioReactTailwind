@@ -2,12 +2,20 @@ import { Link } from 'react-router-dom'
 
 const links = [
   {
-    title: 'Ollama',
+    title: 'ollama',
     description:
-      "Serviço para rodar IA's localmente, como vimos anteriormente!",
+      "serviço para rodar ia's localmente, como vimos anteriormente!",
     href: 'https://ollama.com',
     image: '/assets/ollama.png',
-    badge: "Acesse aqui"
+    badge: "acesse aqui"
+  },
+  {
+    title: 'Open Webui',
+    description:
+      "serviço para rodar ia's, tipo o chatgpt!!",
+    href: 'https://docs.openwebui.com/getting-started/quick-start',
+    image: '/assets/webui.png',
+    badge: "acesse aqui"
   },
   {
     title: 'Github Student Pack',

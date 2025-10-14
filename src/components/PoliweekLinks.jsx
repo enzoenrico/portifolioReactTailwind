@@ -29,7 +29,7 @@ const links = [
     title: 'Apple Developer Academy',
     description:
       'Fiquem de olho nos posts! Sempre tem novos cursos bem legais',
-    href: 'https://anthropic.skilljar.com/',
+    href: 'https://www.instagram.com/adapucpr/',
     image: '/assets/academy.png',
     badge: 'Cursos Incríveis'
   },
